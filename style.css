@@ -1,0 +1,53 @@
+.app {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #8080800f;
+    justify-content: space-around;
+}
+label.input-group-text {
+    background: #fff;
+    border-right: 0 solid #80808012;
+    border-radius: 0 !important;
+}
+input#searchInput {
+    border-left: 0 !important;
+}
+button#search {
+    background: #18b1be;
+    border-radius: 0;
+    color: #fff;
+    text-transform: capitalize;
+}
+div#doglists {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.dogs {
+    width: 271px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 2px 2px #80808047;
+    padding: 0px;
+}
+.img img {
+    width: 100%;
+    height: 205px;
+}
+.name {
+    text-align: center;
+    padding-left: 8px;
+    color: #000;
+    margin-top: 10px;
+}
+.input-group.input-group-sm.mb-3 {
+    padding: 7px 5em;
+}
+.searchdog.container h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 24px;
+}
